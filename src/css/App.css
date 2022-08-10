@@ -1,0 +1,42 @@
+
+.movie_container{
+    min-height: 250px;
+}
+
+.mobile-navbar{
+ display: none;
+}
+
+@media(max-width:995px){
+    .navbar-desktop{
+        display: none;
+    }
+    .mobile-navbar{
+        display: flex;
+        height: 100%;
+        width: 100%;
+
+    }
+    .mobile-navbar ul{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .mobile-navbar ul li{
+        color: white;
+        list-style: none;
+        padding-right:15px;
+        font-size: 25px;
+
+    }
+}
+
+@media (max-width:470px){
+    .titulo{
+        font-size: 14px;
+    }
+   
+}
